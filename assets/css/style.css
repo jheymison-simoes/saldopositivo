@@ -1,0 +1,160 @@
+
+
+/*Logo do Site*/
+/*Define qual local vai ficar*/
+#logoSite {
+	width: 150px;
+    top: 50%;
+    left: 50%;
+    margin-left: 50px;
+}
+
+/*Perfil*/
+.card {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.card .card-body {
+    padding: 0px;
+}
+
+.imgPerfil {
+	width: 40px;
+    height: 50px;
+}
+
+.nomePerfil {
+    padding-top: 8px;
+}
+
+/*Menu Superior Horizontal*/
+.main-panel>.navbar {
+    border-bottom: 1px solid #4caf50;
+}
+
+
+/*Content que recebe todas as páginas*/
+.main-panel>.content {
+    margin-top: 100px;
+}
+
+
+/* área dos Cards - Valores, Gráficos e Tabelas*/
+.cardValInd {
+    margin-bottom: 35px;
+}
+
+#cardGrafico {
+    margin-top: 20px;
+    
+}
+
+#textoCard {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#cardTable {
+    margin-top: 20px;
+}
+
+
+#tipoRenda {
+    margin-top: 25px;
+}
+
+
+/*Linha verde entre formulário e tabela*/
+#espacoForm {
+    border-bottom: 1px solid #4caf50;
+    margin-bottom: 50px;
+}
+
+#menuPagamento {
+    padding: none; 
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+/*Login*/
+#img_back_login {
+    height: 100vh;
+    background-color: #47a44b;
+}
+
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#form_login {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Dar espaço entre o Card Header*/
+#card_header {
+    margin-bottom: 25px;
+}
+
+/*dar espaço entre o logo do Login e o Header do card*/
+#logo_login {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*Efeito máquina de escrever*/
+#texto_login {
+    max-width: 480px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+#texto_login:after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+/*Fim efeito máquina de escrever*/
+
+#card_login {
+    background: #ffffffe0;
+}
+
+#titulo_login {
+    font-size: 20px;
+}
+
+#card_footer {
+    margin: 0;
+    padding: 0;
+}
+
+#conf_cadastro {
+    margin: 200px;
+}
+
+#altera_senha {
+    margin: 100px 200px;
+}
+
