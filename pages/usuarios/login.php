@@ -31,7 +31,7 @@ function login() {
 
             <div id="card_login" class="card card-nav-tabs text-center col-sm-10">
                 <div id="logo_login" class="container">
-                    <img src="assets/img/logo_LOGIN.png" width="200">
+                    <img src="assets/img/logo_login.png" width="200">
                 </div>
 
                 <div id="card_header" class="card-header card-header-success">
